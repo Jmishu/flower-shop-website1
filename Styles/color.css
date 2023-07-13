@@ -7,7 +7,7 @@
 
 }
 .banner{
-    padding:30ox 30px 150px;
+    padding:30ox 30px 30px 150px;
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -35,16 +35,17 @@
     border-radius: 5px;
     border: o;
     background: deeppink;
-    color:white;
     font-size: 20px;
     font-weight: 700;
 
 }
 /* main section styles */
 .featured{
+    background-image: none;
+    text-align: center;
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background-image: #;
     max-width: 1140px;
     margin:130 
 }
@@ -100,7 +101,7 @@
     font-size: 20px;
     font-weight: 700;
 }
-.deals{
+.deals{ 
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
@@ -133,4 +134,18 @@
     background: #FFF8F3;
     max-width: 1140px;
     margin:130 
+}
+.banner1{
+    display: flex;
+    background-color: #FFF8F3;
+    background-image: url('../images/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position:bottom right ;
+
+}
+/* footer */
+footer{
+    text-align: center;
+    background-color:black;
+    color: #FFF8F3;
 }
