@@ -1,5 +1,7 @@
 /* header related styles */
 .header{
+    padding: ;
+    margin: 80px;
     background-color: lightsalmon;
     background-image: none;
     background-repeat: no-repeat;
@@ -9,7 +11,6 @@
 .banner{
     padding:30ox 30px 30px 150px;
     display: flex;
-    align-items: left;
     justify-content: space-between;
     background-color: #FFF8F3;
     background-image: none;
@@ -60,21 +61,54 @@
     text-align: center;
     font-size: 18px;
 }
-/* banner-images*/
-.banner-images{
+/* 3images*/
+.flower{
+    padding:0 100px 50px 100px;
+    margin:50px;
     display: flex;
     gap:15px;
     text-align: center;
     border-radius: 5px;
-    background: #FFF8F3;
+    text-align: centre;
+    background:rgba(255,255,255.0.90);
+    text-decoration: underline;
 }
-.banner-description{
+
+.pink-flower1{
+    height:400px;
+    width: 300px;
+    border-radius: 300px 300px 0px 0px;
+    background:rgba(255,255,255.0.90)
+}
+.pink-flower2{
+    height:400px;
+    width: 300px;
+    border-radius: 300px 300px 0px 0px;
+    background:rgba(255,255,255.0.90)
+}.pink-flower3{
+    height:400px;
+    width: 300px;
+    border-radius: 300px 300px 0px 0px;
+    background:rgba(255,255,255.0.90)
+}
+.flower-description{
     text-align: center;
     display: flex;
 }
+.pictures{
+    padding:px;
+    margin:100px;
+    display: flex;
+    gap:15px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: centre;
+    background: #FFF8F3;
+
+}
 
 .pictures-title{
-    display:inline-flex;
+    display:flex;
     gap:5px;
     text-align: center;
     border-radius: 5px;
@@ -85,13 +119,6 @@
     text-align: center;
     display: inline-flex;
 }
-.deals-pic{
-    width: 400;
-    height: 500;
-    display:inline-flex;
-    justify-content: space-between;
-
-
 .button{
     padding: 20px 35px;
     border-radius: 5px;
@@ -101,12 +128,16 @@
     font-size: 20px;
     font-weight: 700;
 }
-.deals{ 
-    padding: 130px;
+.deals-sale{ 
+    padding: 20px;
     border-radius: 10px;
+    background-position: bottom right;
+    background-size: cover;
     background: #FFF8F3;
     max-width: 1140px;
-    margin:130 
+    margin:130 ;
+    text-align: center;
+    justify-content: space-between;
 }
 .hot-deals{
     text-align: center;
@@ -120,32 +151,66 @@
     text-align: center;
     font-size: 18px;
 }
+.button{
+    padding: 20px 35px;
+    border-radius: 5px;
+    border: o;
+    background: deeppink;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.deals-pic{
+    text-align: center;
+    display: flex;
+}
+.about{
+        padding: 20px;
+        border-radius: 10px;
+        background-position: bottom right;
+        background-size: cover;
+        background: #FFF8F3;
+        max-width: 1140px;
+        margin:130 ;
+        text-align: center;
+        justify-content: space-between;
+}
 .pictures1{
-    display:inline-flex;
+    display: flex;
+    gap:15px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: centre;
+    background: #FFF8F3;
+
+}
+
+.pictures-title{
+    display:flex;
     gap:5px;
     text-align: center;
     border-radius: 5px;
     background: #757575;
 
-}
-.pictures1{
-    padding: 130px;
-    border-radius: 10px;
-    background: #FFF8F3;
-    max-width: 1140px;
-    margin:130 
-}
-.banner1{
+}           
+            
+.banner1-title{
+    margin:40px;
     display: flex;
-    background-color: #FFF8F3;
-    background-image: url('../images/Rectangle 9.png');
-    background-repeat: no-repeat;
-    background-position:bottom right ;
+    background-image:url('../images/Rectangle/9.png');
+    justify-content: space-between;
+
 
 }
+
 /* footer */
 footer{
+    padding:40px;
+    margin:40px;
+    color: rgba(255,255,255.0.90);
     text-align: center;
+    font-size: 18px;
+    font-style: normal;
     background-color:black;
     color: #FFF8F3;
 }
