@@ -1,17 +1,17 @@
 /* header related styles */
 .header{
-    margin: 80px;
-    background-color: lightsalmon;
+    background-color: bisque;
     background-image: none;
     background-repeat: no-repeat;
     background-position: bottom right;
 
 }
 .banner{
+    margin: 0px 130px 0px;
     padding:30ox 30px 30px 150px;
     display: flex;
     justify-content: space-between;
-    background-color: #FFF8F3;
+    background-color: bisque;
     background-image: none;
     background-size: cover;
 }
@@ -24,13 +24,14 @@
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 20px;
+    background-color: bisque;
 }
 .banner .profile-pic{
     width: 400
     height: 500;
 
 }
-.button{
+.text-primary{
     padding: 20px 35px;
     border-radius: 5px;
     border: o;
@@ -45,9 +46,9 @@
     text-align: center;
     padding: 130px;
     border-radius: 10px;
-    background-image: #;
+    background-image:none;
     max-width: 1140px;
-    margin:130 
+    margin:130 ;
 }
 .section-title{
     color: #181818;
@@ -63,32 +64,31 @@
 /* 3images*/
 .flower{
     padding:50px 100px 50px 100px;
-    margin:80px;
+    margin:30px;
     display: flex;
     gap:30px;
     text-align: center;
     border-radius: 5px;
     text-align: centre;
-    background:rgba(255,255,255.0.90);
     text-decoration: underline;
 }
 
 .pink-flower1{
-    height:400px;
-    width: 300px;
+    height:550px;
+    width: 400px;
     border-radius: 300px 300px 0px 0px;
-    background:rgba(255,255,255.0.90)
+    background-color: bisque;
 }
 .pink-flower2{
-    height:400px;
-    width: 300px;
+    height:550px;
+    width: 400px;
     border-radius: 300px 300px 0px 0px;
-    background:rgba(255,255,255.0.90)
+    background-color:darkolivegreen;
 }.pink-flower3{
-    height:400px;
-    width: 300px;
+    height:550px;
+    width: 400px;
     border-radius: 300px 300px 0px 0px;
-    background:rgba(255,255,255.0.90)
+    background-color:gray;
 }
 .flower-description{
     text-align: center;
@@ -98,17 +98,15 @@
     padding:100px;
     margin:100px;
     display: flex;
-    gap:15px;
+    gap:20px;
     text-align: center;
     border-radius: 5px;
     text-align: centre;
-    background: #FFF8F3;
-
+    background-color: #757575;
 }
-
 .pictures-title{
     display:flex;
-    gap:5px;
+    gap:20px;
     text-align: center;
     border-radius: 5px;
     background: #757575;
@@ -139,6 +137,7 @@
     background-color: bisque;
 }
 .hot-deals{
+    margin: 50px;
     display: inline;
     text-align: center;
     color: #181818;
@@ -148,6 +147,7 @@
     background-color: bisque;
 }
 .deals-description{
+    margin:50px;
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -181,14 +181,14 @@
         text-align: center;
         justify-content: space-between;
 }
+.instagram-description{
+    margin:50px;
+}
 .pictures1{
     display: flex;
-    gap:15px;
     text-align: center;
     border-radius: 5px;
     text-align: centre;
-    background-color:bisque ;
-
 }
 
 .pictures-title{
@@ -202,26 +202,34 @@
             
 .banner1-title{
     padding:30ox 30px 30px 150px;
-    margin: 40px;
+    margin: 50px 50px 50px;
     width: 1400px;
     height: 400px; 
-    text-align: center; 
-    position: bottom; 
     background-image: url(../images/Rectangle\ 9.png);
 }
-
-.button{
-    justify-content: space-between;
+.flowers-details{
+    background-size: cover;
+    margin: 100px 500px  30px;
+    padding: auto;
+    display: block;
+    height: 300px;
+    width:400px;
+    gap:15px;
+    background-color: grey;
+    text-align: center;
+    cursor:pointer;
 }
-
-/* footer */
-footer{
-    padding:20px;
-    margin:20px;
-    color: rgba(255,255,255.0.90);
+/* footer section */
+.footer-part{
+    padding:100px;
     text-align: center;
     font-size: 18px;
     font-style: normal;
-    background-color:black;
-    color: #FFF8F3;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: lato;
+    background-color: black;    
+    color: white;
 }
+   
+    
